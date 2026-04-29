@@ -5,10 +5,11 @@
   <meta name="viewport"
         content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Taxi Service</title>
+  {% block title %}
+    <title>Taxi Service</title>
+  {% endblock %}
   {% load static %}
   <link rel="stylesheet" href="{% static 'css/styles.css' %}">
-  <!-- <link rel="stylesheet" href="css/style.css"> -->
 </head>
 <body>
 <nav>
